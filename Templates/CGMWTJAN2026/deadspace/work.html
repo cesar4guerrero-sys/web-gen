@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work — Deadspace | Codegrid</title>
+    <meta name="author" content="Codegrid" />
+    <meta name="description" content="MWT January 2026 by Codegrid" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/png" href="/site-icon.png" />
+
+    <link rel="stylesheet" href="/globals.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/work.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="transition-grid">
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+      <div class="transition-block"></div>
+    </div>
+
+    <script>
+      if (sessionStorage.getItem("pageTransition") === "true") {
+        const grid = document.querySelector(".transition-grid");
+        if (grid) {
+          grid.style.backgroundColor = "var(--bg)";
+          grid.style.zIndex = "1000";
+          grid.style.pointerEvents = "auto";
+        }
+        const blocks = grid.querySelectorAll(".transition-block");
+        blocks.forEach((block) => {
+          block.style.opacity = "1";
+        });
+      }
+    </script>
+
+    <nav>
+      <div class="container">
+        <div class="nav-clock">
+          <p class="type-mono">18 <span>:</span> 25 EST</p>
+        </div>
+
+        <div class="nav-logo">
+          <a href="/" class="type-mono">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1000"
+              height="1000"
+              viewBox="0 0 1000 1000"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_1002_3)">
+                <path
+                  d="M25 500.205C25 633.944 205.38 742.342 427.916 742.342V598.989C278.924 598.989 158.162 526.396 158.162 436.851C158.162 347.307 278.924 274.713 427.916 274.713V258C205.414 258 25 366.432 25 500.137V500.205Z"
+                  fill="black"
+                />
+                <path
+                  d="M572.084 258.068V274.781C721.076 274.781 841.839 347.375 841.839 436.919C841.839 526.464 721.076 599.057 572.084 599.057V742.41C794.586 742.41 975 633.978 975 500.273C975 366.568 794.62 258.136 572.084 258.136V258.068Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1002_3">
+                  <rect width="1000" height="1000" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+
+        <div class="nav-location">
+          <p class="type-mono">
+            <ion-icon name="triangle-sharp"></ion-icon> Helsinki, FI
+          </p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-toggle-btn">
+      <div class="hamburger-bar"></div>
+      <div class="hamburger-bar"></div>
+    </div>
+
+    <div class="menu-overlay">
+      <div class="menu-bg">
+        <canvas id="menu-canvas"></canvas>
+      </div>
+
+      <div class="menu-overlay-nav">
+        <div class="close-btn">
+          <div class="close-btn-bar"></div>
+          <div class="close-btn-bar"></div>
+        </div>
+
+        <div class="menu-overlay-items">
+          <a
+            class="type-mono"
+            href="https://www.instagram.com/codegridweb/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+          <a
+            class="type-mono"
+            href="https://x.com/codegridweb"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >
+        </div>
+      </div>
+
+      <div class="menu-overlay-footer">
+        <a class="type-mono" href="/lab">Lab Access</a>
+        <a class="type-mono" href="/contact">Get in Touch</a>
+      </div>
+
+      <div class="circular-menu">
+        <div class="joystick">
+          <ion-icon
+            name="grid-sharp"
+            class="center-icon center-main"
+          ></ion-icon>
+          <ion-icon
+            name="chevron-up-sharp"
+            class="center-icon center-up"
+          ></ion-icon>
+          <ion-icon
+            name="chevron-down-sharp"
+            class="center-icon center-down"
+          ></ion-icon>
+          <ion-icon
+            name="chevron-back-sharp"
+            class="center-icon center-left"
+          ></ion-icon>
+          <ion-icon
+            name="chevron-forward-sharp"
+            class="center-icon center-right"
+          ></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <section class="work-hero">
+      <h1
+        data-animate-variant="diffuse"
+        data-animate-on-scroll="false"
+        data-animate-delay="0.1"
+      >
+        Selected Works
+      </h1>
+
+      <div class="work-hero-footer">
+        <div class="container">
+          <p
+            class="type-mono"
+            data-animate-variant="flicker"
+            data-animate-on-scroll="false"
+            data-animate-delay="1"
+          >
+            [ Ongoing practice ]
+          </p>
+          <p
+            class="type-mono"
+            data-animate-variant="flicker"
+            data-animate-on-scroll="false"
+            data-animate-delay="1"
+          >
+            / Design archive
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-items">
+      <div class="container">
+        <div class="work-item-row" id="work-item-row-1">
+          <a href="/project">
+            <div class="work-item">
+              <img src="/work/work_01.jpg" alt="" />
+              <div class="work-item-info">
+                <p>Afterimage</p>
+                <p>9K4F2M7Q</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-item-row" id="work-item-row-2">
+          <a href="/project">
+            <div class="work-item">
+              <img src="/work/work_02.jpg" alt="" />
+              <div class="work-item-info">
+                <p>Silent Offset</p>
+                <p>A7L3Q9F2</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-item-row" id="work-item-row-3">
+          <a href="/project">
+            <div class="work-item">
+              <img src="/work/work_03.jpg" alt="" />
+              <div class="work-item-info">
+                <p>Residual Motion</p>
+                <p>R1M9D4K7</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-item-row" id="work-item-row-4">
+          <a href="/project">
+            <div class="work-item">
+              <img src="/work/work_04.jpg" alt="" />
+              <div class="work-item-info">
+                <p>Negative Space</p>
+                <p>2F8Q7A9L</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-item-row" id="work-item-row-5">
+          <a href="/project">
+            <div class="work-item">
+              <img src="/work/work_05.jpg" alt="" />
+              <div class="work-item-info">
+                <p>Signal Loss</p>
+                <p>M4D9K7F2</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h2>Deadspace</h2>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-sub-col">
+                <a href="/"><h3>Index</h3></a>
+                <a href="/lab"><h3>Lab</h3></a>
+                <a href="/work"><h3>Archive</h3></a>
+                <a href="/project"><h3>Record 01</h3></a>
+                <a href="/contact"><h3>Connect</h3></a>
+              </div>
+
+              <div class="footer-sub-col">
+                <a
+                  href="https://x.com/codegridweb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+                <a
+                  href="https://www.instagram.com/codegridweb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+                <a
+                  href="https://codegrid.gumroad.com/l/codegridpro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Gumroad</a
+                >
+                <a
+                  href="https://www.youtube.com/@codegrid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >YouTube</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-row">
+            <p class="type-mono">MWT __ January ’26</p>
+            <p class="type-mono">[ Engineered by Codegrid ]</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <svg
+      viewBox="0 0 0 0"
+      aria-hidden="true"
+      style="position: absolute; width: 0; height: 0; pointer-events: none"
+    >
+      <defs>
+        <filter id="blur-matrix" x="-50%" y="-50%" width="200%" height="200%">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 255 -140"
+          ></feColorMatrix>
+        </filter>
+      </defs>
+    </svg>
+
+    <script type="module" src="/js/lenis-scroll.js"></script>
+    <script type="module" src="/js/transition.js"></script>
+    <script type="module" src="/js/nav.js"></script>
+    <script type="module" src="/js/menu.js"></script>
+    <script type="module" src="/js/animated-copy.js"></script>
+    <script type="module" src="/js/work.js"></script>
+    <script type="module" src="/js/footer.js"></script>
+  </body>
+</html>
