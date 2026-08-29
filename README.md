@@ -1,24 +1,16 @@
-# Website Maker Resource Library
+# Claude + CodeGrid Knowledge Pack
 
-This repository is a library of reusable website templates,
-UI components, animations, transitions, effects, and source code.
+This pack converts a large CodeGrid source archive into a retrieval-friendly knowledge layer.
 
-## Folders
+Recommended Claude Project setup:
 
-### Templates
-Complete website sections and page templates.
+1. Put `00_CLAUDE_PROJECT_INSTRUCTIONS.md` into Project Instructions.
+2. Upload `01_CODEGRID_INDEX.md`.
+3. Upload the entire `02_PATTERN_CARDS/` folder if Claude accepts the folder structure, or upload the markdown cards.
+4. Keep the original CodeGrid source archive separately as an implementation/reference archive.
+5. When possible, use Claude's project knowledge/RAG to retrieve the relevant source files rather than stuffing every project into every prompt.
 
-### Source Codes
-Reusable effects, animations, components, and interactions.
+The key idea is progressive disclosure:
+**global rules -> index -> small pattern cards -> exact source implementation.**
 
-## How to use this library
-
-When building a website, search this repository for relevant
-components before creating an implementation from scratch.
-
-Reuse and adapt existing components whenever appropriate.
-
-Preserve the original dependencies and implementation patterns
-unless they conflict with the requirements of the website.
-
-Components may be combined together to create new websites.
+This is much more reliable for a website generator than giving the model a giant undifferentiated dump of source code.

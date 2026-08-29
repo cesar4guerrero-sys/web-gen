@@ -1,0 +1,1143 @@
+[
+  {
+    "name": "3d hover",
+    "path": "Source Codes/3d hover",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "hover / cursor interaction",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "flip"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "and2es 3d slider",
+    "path": "Source Codes/and2es 3d slider",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "slider / infinite loop",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "observer"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "circular image",
+    "path": "Source Codes/circular image",
+    "category": "Source Codes",
+    "design_tags": [
+      "circular image interaction",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-3d-crt-display",
+    "path": "Source Codes/codegrid-3d-crt-display",
+    "category": "Source Codes",
+    "design_tags": [
+      "WebGL / shader / distortion",
+      "3D / spatial interaction",
+      "GSAP",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "three",
+      "webgl",
+      "shader"
+    ],
+    "dependencies": [
+      "gsap",
+      "lil-gui",
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-3d-scroll-tunnel",
+    "path": "Source Codes/codegrid-3d-scroll-tunnel",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "scroll-driven composition",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-aminezegmou-landing-page",
+    "path": "Source Codes/codegrid-aminezegmou-landing-page",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-artefakt-interactive-ascii-logo",
+    "path": "Source Codes/codegrid-artefakt-interactive-ascii-logo",
+    "category": "Source Codes",
+    "design_tags": [
+      "ASCII / canvas rendering"
+    ],
+    "signals": [
+      "canvas"
+    ],
+    "dependencies": [
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-ascii-image-reveal-effect",
+    "path": "Source Codes/codegrid-ascii-image-reveal-effect",
+    "category": "Source Codes",
+    "design_tags": [
+      "ASCII / canvas rendering",
+      "image gallery / reveal"
+    ],
+    "signals": [
+      "canvas"
+    ],
+    "dependencies": [
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-ashleybrookecs-smudge-revealer",
+    "path": "Source Codes/codegrid-ashleybrookecs-smudge-revealer",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "smudge / texture distortion",
+      "GSAP",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "three"
+    ],
+    "dependencies": [
+      "gsap",
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-brandappart-sticky-cards",
+    "path": "Source Codes/codegrid-brandappart-sticky-cards",
+    "category": "Source Codes",
+    "design_tags": [
+      "interactive cards",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-buckssauce-landing-page-reveal",
+    "path": "Source Codes/codegrid-buckssauce-landing-page-reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "landing-page reveal / hero choreography",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "lenis",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-cursor-driven-material-spotlight",
+    "path": "Source Codes/codegrid-cursor-driven-material-spotlight",
+    "category": "Source Codes",
+    "design_tags": [
+      "WebGL / shader / distortion",
+      "3D / spatial interaction",
+      "WebGL"
+    ],
+    "signals": [
+      "three",
+      "webgl",
+      "shader",
+      "canvas"
+    ],
+    "dependencies": [
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-detroit-paris-infinite-slider",
+    "path": "Source Codes/codegrid-detroit-paris-infinite-slider",
+    "category": "Source Codes",
+    "design_tags": [
+      "slider / infinite loop",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "lenis",
+      "barba",
+      "motion"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-fameestate-scroll-animation",
+    "path": "Source Codes/codegrid-fameestate-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-grid-deformation-effect",
+    "path": "Source Codes/codegrid-grid-deformation-effect",
+    "category": "Source Codes",
+    "design_tags": [
+      "WebGL / shader / distortion",
+      "3D / spatial interaction",
+      "WebGL"
+    ],
+    "signals": [
+      "three",
+      "webgl",
+      "shader",
+      "canvas"
+    ],
+    "dependencies": [
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-griflan-hover-effect",
+    "path": "Source Codes/codegrid-griflan-hover-effect",
+    "category": "Source Codes",
+    "design_tags": [
+      "hover / cursor interaction",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "motion",
+      "matter-js"
+    ],
+    "dependencies": [
+      "gsap",
+      "matter-js",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-gsap-creative-clutter",
+    "path": "Source Codes/codegrid-gsap-creative-clutter",
+    "category": "Source Codes",
+    "design_tags": [
+      "layered / chaotic composition",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "flip"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-ingamana-scroll-animation",
+    "path": "Source Codes/codegrid-ingamana-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-kvs-studio-image-reveal",
+    "path": "Source Codes/codegrid-kvs-studio-image-reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "image gallery / reveal",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-larevoltosa-scroll-animation",
+    "path": "Source Codes/codegrid-larevoltosa-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-lukebaffait-animated-footer",
+    "path": "Source Codes/codegrid-lukebaffait-animated-footer",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "splittext",
+      "canvas",
+      "motion"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-maximatherapy-sticky-cards",
+    "path": "Source Codes/codegrid-maximatherapy-sticky-cards",
+    "category": "Source Codes",
+    "design_tags": [
+      "interactive cards",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "flip",
+      "motion"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-next-accordion-frames",
+    "path": "Source Codes/codegrid-next-accordion-frames",
+    "category": "Source Codes",
+    "design_tags": [
+      "accordion / sequential reveal"
+    ],
+    "signals": [
+      "observer"
+    ],
+    "dependencies": [
+      "next",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-next-text-reveal-animation",
+    "path": "Source Codes/codegrid-next-text-reveal-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "splittext"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "next",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-nvg8-scroll-animation",
+    "path": "Source Codes/codegrid-nvg8-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-obsidianassembly-page-transition",
+    "path": "Source Codes/codegrid-obsidianassembly-page-transition",
+    "category": "Source Codes",
+    "design_tags": [
+      "page transitions",
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "next",
+      "next-transition-router",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-outfit-landing-page-reveal",
+    "path": "Source Codes/codegrid-outfit-landing-page-reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "landing-page reveal / hero choreography",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-overlay-menu-gsap",
+    "path": "Source Codes/codegrid-overlay-menu-gsap",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-poppr-menu",
+    "path": "Source Codes/codegrid-poppr-menu",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-poppr-menu-nextjs",
+    "path": "Source Codes/codegrid-poppr-menu-nextjs",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "next",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-ripple-displacement-slider",
+    "path": "Source Codes/codegrid-ripple-displacement-slider",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "WebGL / shader / distortion",
+      "3D / spatial interaction",
+      "slider / infinite loop",
+      "GSAP",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "three",
+      "webgl",
+      "splittext",
+      "shader",
+      "canvas"
+    ],
+    "dependencies": [
+      "gsap",
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-scroll-wave-image-gallery",
+    "path": "Source Codes/codegrid-scroll-wave-image-gallery",
+    "category": "Source Codes",
+    "design_tags": [
+      "image gallery / reveal",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-spencergabor-magnetic-cards",
+    "path": "Source Codes/codegrid-spencergabor-magnetic-cards",
+    "category": "Source Codes",
+    "design_tags": [
+      "interactive cards",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-starfield-animation",
+    "path": "Source Codes/codegrid-starfield-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext",
+      "canvas"
+    ],
+    "dependencies": []
+  },
+  {
+    "name": "codegrid-steelworks-landing-page-reveal",
+    "path": "Source Codes/codegrid-steelworks-landing-page-reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "landing-page reveal / hero choreography",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-studiodialect-image-gallery",
+    "path": "Source Codes/codegrid-studiodialect-image-gallery",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "image gallery / reveal",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "lenis",
+      "three",
+      "webgl",
+      "shader",
+      "canvas"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-svg-stroke-page-transition-nextjs",
+    "path": "Source Codes/codegrid-svg-stroke-page-transition-nextjs",
+    "category": "Source Codes",
+    "design_tags": [
+      "page transitions",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "next",
+      "next-transition-router",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-threejs-slider-nextjs",
+    "path": "Source Codes/codegrid-threejs-slider-nextjs",
+    "category": "Source Codes",
+    "design_tags": [
+      "3D / spatial interaction",
+      "slider / infinite loop",
+      "WebGL"
+    ],
+    "signals": [
+      "three",
+      "webgl",
+      "canvas"
+    ],
+    "dependencies": [
+      "next",
+      "react",
+      "react-dom",
+      "three"
+    ]
+  },
+  {
+    "name": "codegrid-veravandeseyp-scroll-animation",
+    "path": "Source Codes/codegrid-veravandeseyp-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": []
+  },
+  {
+    "name": "codegrid-voku-image-slider-nextjs",
+    "path": "Source Codes/codegrid-voku-image-slider-nextjs",
+    "category": "Source Codes",
+    "design_tags": [
+      "slider / infinite loop",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "next",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "codegrid-voyeurverite-scroll-animation",
+    "path": "Source Codes/codegrid-voyeurverite-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext",
+      "motion"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-waabi-scroll-animation",
+    "path": "Source Codes/codegrid-waabi-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext",
+      "motion"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrid-werowallet-scroll-animation",
+    "path": "Source Codes/codegrid-werowallet-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "codegrie-voltlites-scroll-animation",
+    "path": "Source Codes/codegrie-voltlites-scroll-animation",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "scroll-driven composition",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "vite"
+    ]
+  },
+  {
+    "name": "glitchandgrit infinite slider",
+    "path": "Source Codes/glitchandgrit infinite slider",
+    "category": "Source Codes",
+    "design_tags": [
+      "slider / infinite loop"
+    ],
+    "signals": [
+      "motion"
+    ],
+    "dependencies": []
+  },
+  {
+    "name": "gooey text reveal",
+    "path": "Source Codes/gooey text reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext",
+      "canvas"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "next",
+      "react",
+      "react-dom"
+    ]
+  },
+  {
+    "name": "interactive ascii footer",
+    "path": "Source Codes/interactive ascii footer",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "ASCII / canvas rendering",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "canvas"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "livespot360 landing page reveal",
+    "path": "Source Codes/livespot360 landing page reveal",
+    "category": "Source Codes",
+    "design_tags": [
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": []
+  },
+  {
+    "name": "wearecasey menu",
+    "path": "Source Codes/wearecasey menu",
+    "category": "Source Codes",
+    "design_tags": [
+      "navigation / menu",
+      "typography / text motion",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap",
+      "splittext"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "zentry hover effect",
+    "path": "Source Codes/zentry hover effect",
+    "category": "Source Codes",
+    "design_tags": [
+      "hover / cursor interaction",
+      "GSAP"
+    ],
+    "signals": [
+      "gsap"
+    ],
+    "dependencies": [
+      "gsap",
+      "vite"
+    ]
+  },
+  {
+    "name": "CGMWTFEB2026",
+    "path": "Templates/CGMWTFEB2026",
+    "category": "Templates",
+    "design_tags": [
+      "typography / text motion",
+      "GSAP",
+      "smooth scroll"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "splittext",
+      "motion"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "next",
+      "next-view-transitions",
+      "react",
+      "react-dom",
+      "react-icons"
+    ]
+  },
+  {
+    "name": "CGMWTJAN2026",
+    "path": "Templates/CGMWTJAN2026",
+    "category": "Templates",
+    "design_tags": [
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "webgl",
+      "splittext",
+      "shader",
+      "canvas",
+      "motion",
+      "glsl"
+    ],
+    "dependencies": [
+      "gsap",
+      "lenis",
+      "three",
+      "vite"
+    ]
+  },
+  {
+    "name": "CGMWTJULY2026",
+    "path": "Templates/CGMWTJULY2026",
+    "category": "Templates",
+    "design_tags": [
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "splittext",
+      "flip",
+      "observer",
+      "motion",
+      "matter-js"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "matter-js",
+      "next",
+      "next-transition-router",
+      "react",
+      "react-dom",
+      "react-icons",
+      "three"
+    ]
+  },
+  {
+    "name": "CGMWTMARCH2026",
+    "path": "Templates/CGMWTMARCH2026",
+    "category": "Templates",
+    "design_tags": [
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "webgl",
+      "splittext",
+      "flip",
+      "observer",
+      "canvas"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "next",
+      "next-transition-router",
+      "react",
+      "react-dom",
+      "react-icons",
+      "three"
+    ]
+  },
+  {
+    "name": "CGMWTMAY2026",
+    "path": "Templates/CGMWTMAY2026",
+    "category": "Templates",
+    "design_tags": [
+      "typography / text motion",
+      "3D / spatial interaction",
+      "GSAP",
+      "smooth scroll",
+      "WebGL"
+    ],
+    "signals": [
+      "gsap",
+      "scrolltrigger",
+      "lenis",
+      "three",
+      "webgl",
+      "splittext",
+      "flip",
+      "observer",
+      "shader",
+      "canvas",
+      "motion",
+      "anime",
+      "glsl"
+    ],
+    "dependencies": [
+      "@gsap/react",
+      "gsap",
+      "lenis",
+      "next",
+      "next-transition-router",
+      "postprocessing",
+      "react",
+      "react-dom",
+      "react-icons",
+      "three"
+    ]
+  }
+]
